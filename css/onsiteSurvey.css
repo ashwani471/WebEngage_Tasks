@@ -39,13 +39,17 @@ body{
     margin-bottom: -21px;
 }
 
+.outer-div .inner-right-div .heading{
+    text-align: center;
+}
+
 .outer-div .inner-right-div .heading h1{
-    margin-left: 114px;
+    /* margin-left: 114px; */
     margin-bottom: -16px;
 }
 
 .outer-div .inner-right-div .heading p{
-    margin-left: 105px;
+    /* margin-left: 105px; */
     font-weight: 600;
     font-size: 16px;
 }
@@ -102,6 +106,10 @@ input::placeholder {
     border-right: none;
 }
 
+input[type="email"]:focus{
+    border-style: none;
+}
+
 .btn{
     width: 98%;
     height: 50px;
@@ -109,6 +117,7 @@ input::placeholder {
     color: whitesmoke;
     background-color: rgba(13, 13, 13,0.9);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 
@@ -127,11 +136,11 @@ input::placeholder {
         height: 100%;
     }
 
-    .outer-div.inner-right-div{
+    .outer-div .inner-right-div{
         width: 100%;
         display: block;
         text-align: center;
-        justify-content: center;
+        /* justify-content: center; */
     }
 
     .outer-div .inner-right-div .inner-right-div-content{
@@ -139,7 +148,7 @@ input::placeholder {
     text-align: center;
     }
     .heading h1{
-        /* text-align: center; */
+        
         margin-left: 0px;
     }
     .heading p{
@@ -148,5 +157,11 @@ input::placeholder {
     .heading{
         text-align: center;
         justify-content: center;
+    }
+    .outer-div .inner-right-div form .mob{
+        margin-left: 4px;
+    }
+    input:focus{
+       border-style: none;
     }
 }
