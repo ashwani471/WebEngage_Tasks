@@ -1,0 +1,3 @@
+1.I used HTML , CSS  , javascript to complete this task.for responsive designing i used media query in folder css/onsiteSurvey.css. 
+
+2.i perform functionality in onsiteSurvey.js using javscript.

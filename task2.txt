@@ -1,0 +1,6 @@
+Here in this task i used fetch methode to fetch the api and use async await method.
+for use taks 2 first of all u open NunjucksQueries/index.html and open console.log to see the output by pressing key(Fn+F12);
+
+write any digit in input tag between (1-10) becouse in api only 10 user are there. and u got yours output.
+
+i have already commented in file NunjucksQueries/index.js query number so that we easily understand which query gives which data.

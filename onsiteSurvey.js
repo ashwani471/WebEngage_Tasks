@@ -16,6 +16,8 @@ let msgMobile = document.getElementById('errorTel');
 
 let mobDiv = document.querySelector('.mob');
 
+// check both are correct or not
+
 function insert(e){
     
     if(validateNumber && validateEmail){
@@ -24,6 +26,8 @@ function insert(e){
     e.preventDefault();
 
 }
+
+// validate Number on blur sitution
 
 function validateNumber(e){
    
@@ -47,6 +51,8 @@ function validateNumber(e){
     }
 }
 
+// validate email if number is focused before email
+
 function validateNumonFocus(e){
     if(emailInput.value === ''){
         emailInput.focus();
@@ -56,6 +62,8 @@ function validateNumonFocus(e){
         validateNumber(e);
     }
 }
+
+// validate Email
 
 function validateEmail(e){
  let email = e.target.value;
